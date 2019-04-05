@@ -1,0 +1,12 @@
+certifi==2018.1.18
+chardet==3.0.4
+idna==2.6
+pew==1.1.2
+pipenv==11.0.2
+psutil==5.3.1
+pytelegrambotapi==3.6.0
+requests==2.18.4
+six==1.11.0
+urllib3==1.22
+virtualenv==15.1.0
+virtualenv-clone==0.3.0
