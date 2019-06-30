@@ -291,7 +291,7 @@ else:
     def webhook():
         
         bot.remove_webhook()
-        bot.set_webhook(url="https://ourtelegrambot.herokuapp.com/") # этот url нужно заменить на url вашего Хероку приложения
+        bot.set_webhook(url="https://ourtelegrambot.herokuapp.com/bot") # этот url нужно заменить на url вашего Хероку приложения
         return "?", 200
     server.run(host="0.0.0.0", port=os.environ.get('PORT', 80))
     #bot.polling(none_stop=True)
