@@ -277,5 +277,6 @@ if "HEROKU" in list(os.environ.keys()):
 else:
     # если переменной окружения HEROKU нету, значит это запуск с машины разработчика.  
     # Удаляем вебхук на всякий случай, и запускаем с обычным поллингом.
+    print('not heroku')
     bot.remove_webhook()
     bot.polling(none_stop=True)
