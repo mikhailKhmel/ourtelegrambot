@@ -1,6 +1,6 @@
 *mytoken.py
 *.log
-*.sqlite
+
 __pycache__/*
 venv/*
 .vscode/*
