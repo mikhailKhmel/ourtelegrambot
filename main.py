@@ -258,6 +258,7 @@ def handle_text(message):
 
 # Проверим, есть ли переменная окружения Хероку (как ее добавить смотрите ниже)
 if "HEROKU" in list(os.environ.keys()):
+    print('heroku')
     logger = telebot.logger
     telebot.logger.setLevel(logging.INFO)
 
