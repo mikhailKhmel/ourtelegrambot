@@ -6,7 +6,8 @@ import random
 import sqlite3
 import time
 import logging
-# import mytoken
+from flask import Flask, request
+
 
 conn = sqlite3.connect('all_db.sqlite', check_same_thread=False)
 cur = conn.cursor()
